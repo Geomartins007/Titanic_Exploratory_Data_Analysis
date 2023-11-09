@@ -9,7 +9,7 @@
  - [Data analysis](#data-analysis)
  - [Results](#results)
  - [Limitation](#limitation)
- - [Reference](reference)
+ - [References](reference)
 
 ### Project Overview
 
@@ -129,7 +129,7 @@ Due to the nature of the dataset and the aim of the analysis, there no recommend
 
 The age feature would have been better recorded as int and not the float dtype.
 
-### Reference
+### References
 
 1. Python Data Analysis with Pandas, NumPy, and Matplotlib by Fabio Nelli. [Download](https://indianpdf.com/python-data-analytics-pdf/)
 2. MLJAR - [Saving Jupyter Notebook chart](https://mljar.com/blog/matplotlib-save-plot/#:~:text=For%20Jupyter%20Notebook%20users%2C%20you,file%20has%20an%20empty%20figure.)
