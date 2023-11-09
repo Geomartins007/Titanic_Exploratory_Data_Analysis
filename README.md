@@ -1,6 +1,7 @@
 # Titanic Exploratory Data Analysis: Exploring the survival rates.
 
 ## Table of Content
+
  - [Project Overview](#project-overview)
  - [Data Source](#data-source)
  - [Tools](#tools)
@@ -11,13 +12,18 @@
  - [Limitation](#limitation)
  - [Reference](#reference)
 
+---
 ### Project Overview
 
 This data analysis project aims to provide insight into the survival rate of the passengers in the Titanic ship. By analysisng the relationships between different feature classes in the dataset, this analysis particularly hopes to throw insights on the survival rates per gender, passenger class, fare, siblings/partners/parents, and age. The analysis hopes to unveil the features categories of the individual feature classes that recieved attention during the rescue operation.
 
+---
+
 ### Data Source
 
 Titanic data: The primary datasets used for this analysis are the 'train_data.csv' and 'test_data.csv', containing the feature classes used in finding insights on the dataset. Both dataset were downloded for kaggle. [Click to download.](https://www.kaggle.com/code/mjamilmoughal/eda-of-titanic-dataset-with-python-analysis/input)
+
+---
 
 ### Tools
 
@@ -28,6 +34,8 @@ Titanic data: The primary datasets used for this analysis are the 'train_data.cs
 - Matplotlib - Data visualization
 
 - MS PowerPoint - Report preparation
+
+---
 
 ### Data Cleaning
 
@@ -40,6 +48,8 @@ In the initial data preparion phase, the following tasks were carried out:
    - Filling NaN with mode of the class.
    - Droping irrelevant classes.
    - Renaming classes.
+ 
+---
   
 ### Exploratory Data Analysis (EDA)
 
@@ -56,6 +66,8 @@ Key questions to arrive at insights
 9. Who paid the highest fare?
 10. How does having siblings, partner or parent affect survival?
 11. Which passenger class has the higest death/survival rates?
+
+---
 
 ### Data analysis
 
@@ -104,6 +116,8 @@ train_data[train_data['Fare']==512.3292].style.background_gradient(cmap='summer_
 plt.savefig("ax.png")
 
 ```
+---
+
 ### Results
 
 The EDA findings are summerized below;
@@ -120,17 +134,26 @@ The EDA findings are summerized below;
     - as the number of siblings, parents or pathners decreases, the number of survival increses.
     - Therefore, there is an inverse relationship between the SibSp and Survived features.
     - A heatmap that shows a negative correlation value of -0.035 between the SibSp and the Survived features.
+  
+---
 
 ### Recommendation
 
 Due to the nature of the dataset and the aim of the analysis, there no recommendation.
 
+---
+
 ### Limitation
 
 The age feature would have been better recorded as int and not the float dtype.
+
+---
 
 ### Reference
 
 1. Python Data Analysis with Pandas, NumPy, and Matplotlib by Fabio Nelli. [Download](https://indianpdf.com/python-data-analytics-pdf/)
 2. MLJAR - [Saving Jupyter Notebook chart](https://mljar.com/blog/matplotlib-save-plot/#:~:text=For%20Jupyter%20Notebook%20users%2C%20you,file%20has%20an%20empty%20figure.)
 
+---
+
+🥇🥇🥇
