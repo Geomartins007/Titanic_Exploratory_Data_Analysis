@@ -9,7 +9,7 @@
  - [Data analysis](#data-analysis)
  - [Results](#results)
  - [Limitation](#limitation)
- - [References](references)
+ - [References](#references)
 
 ### Project Overview
 
